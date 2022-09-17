@@ -91,7 +91,6 @@ window.addEventListener("DOMContentLoaded", () => {
           renderContent(i, contentItem);
         }
         if (window.innerWidth <= widthScreenMobile) {
-          console.log(window.innerWidth, " ",window.innerWidth <= widthScreenMobile)
           menu.classList.add("slide__left");
           content.classList.add("content__100");
           menuBurger.classList.remove("hidden");
